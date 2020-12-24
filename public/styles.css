@@ -1,0 +1,64 @@
+/**
+ * Fix user-agent
+ */
+
+ * {
+    box-sizing: border-box;
+  }
+
+  #clear{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    height:48px;
+    width: 60px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 3px;
+    border: 2px solid #f1f1f1;
+  }
+  #clear>span{
+    padding-top:12px;
+    width: 100%;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /**
+   * Canvas
+   */
+  
+  .whiteboard {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  }
+  
+  .colors {
+    position: fixed;
+    bottom:0;
+    left: 0;
+    right: 0;
+  }
+  
+  .color {
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+  }
+  
+  .color.black { background-color: black; }
+  .color.red { background-color: red; }
+  .color.green { background-color: green; }
+  .color.blue { background-color: blue; }
+  .color.yellow { background-color: yellow; }
